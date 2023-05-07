@@ -1,7 +1,18 @@
-#sec_ayuda{
-
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.form{
-    text-align: center;
+form {
+    display: flex;
+}
+
+form p{
+    margin-bottom: 0px;
+}
+
+form label{
+    margin-bottom: 0px;
 }

@@ -7,6 +7,7 @@
   <title>TUP LC2 - TP Integrador</title>
   <!-- Estilos CSS -->
   <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/pages/help.css">
 </head>
 
 <body>
@@ -32,17 +33,20 @@
       <p>Esta App te permite consultar la cartelera de cine utilizando la API de <a href="https://www.themoviedb.org/documentation/api" target="_blank">The movie database API.</a></p>
       <p>Para poder registar sus películas favoritas deberá <a href="index.html">Agregar Favorito</a> desde la cartelera y luego visualizar nuestos favoritos desde <a href="favorities.html">Mis Favoritas.</a><br>
       Si tiene alguna sugerencia o inconveniente por favor complete el siguiente formulario y envienoslo. Lo contactaremos a la brevedad.</p>
-      <form>
+      <form class="form-container">
         <div>
-          <label for="nombre"><b>Nombre:</b></label>
+          <p><b>Nombre:</b></p>
+          <label for="nombre"></label>
           <input type="text" id="nombre" name="nombre" required>
         </div>
         <div>
-          <label for="email"><b>Email:       </b></label>
+          <p><b>Email:</b></p>
+          <label for="email"></label>
           <input type="email" id="email" name="email" required>
         </div>
         <div>
-          <label for="mensaje"><b>Mensaje:</b></label>
+          <p><b>Mensaje:</b></p>
+          <label for="mensaje"></label>
           <textarea id="mensaje" name="mensaje" required></textarea>
         </div>
         <div>
