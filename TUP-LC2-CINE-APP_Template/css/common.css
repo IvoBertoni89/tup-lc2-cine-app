@@ -91,8 +91,8 @@ h3 {
   margin: 8px 0;
 }
 main section {
-  display: flex;
-  justify-content: space-around;
+  display: block;
+  justify-content: center;
 }
 footer {
   position: fixed;
