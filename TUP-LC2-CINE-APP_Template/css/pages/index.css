@@ -1,0 +1,24 @@
+#sec_peliculas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedorPeliculas {
+    text-align: justify;
+  }
+  
+  .contenedorPeliculas img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contenedorPeliculas h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .contenedorPeliculas p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
