@@ -28,11 +28,21 @@
   <!-- Contenido principal de la página -->
   <main>
     <h2>Últimas Películas en Cartelera</h2>
+    Agregar Película Favorita por Código:
+    <form id="Form1">
+      <input type="number" id="code" placeholder="Ingrese un código numérico." required>
+      <button type="button" >Agregar</button>
+    </form>
     <section id="form-movie-new">
       <!--Seccion para agregar una palicula favorita por codigo-->
     </section>
     <section id="sec-messages">
       <!--Seccion para mensajes-->
+      <ul>
+        <li id="Success">Película agregada con éxito.</li>
+        <li id="Warning">La Película ingresada ya se encuentra almacenada.</li>
+        <li id="Error">Error: La Película seleccionada no se encuentra en la API o se produjo un error al consultar.</li>
+      </ul>
     </section>
     <section id="sec_peliculas">
       <!--Seccion visualizacion de peliculas-->
@@ -43,7 +53,7 @@
        <p><b>Título Original:</b> Creed III</p>
        <p><b>Idioma Original:</b> En</p>
        <p><b>Año:</b> 2023 - 03 - 01</p>
-       <a href="favorities.html">Agregar a Favoritos.</a>
+       <button id="Fav-Button">Agregar a Favoritos.</button>
       </div>
       <div class="contenedorPeliculas" id="contenedorPeliculas"></div>
     </section>

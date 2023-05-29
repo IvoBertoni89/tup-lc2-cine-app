@@ -16,3 +16,33 @@ form p{
 form label{
     margin-bottom: 0px;
 }
+
+#sec_ayuda p {
+    text-align: justify;
+  }
+
+#sec_ayuda input {
+    width: 400px;
+    height: 40px;
+  }
+
+  #sec_ayuda textarea {
+    width: 400px;
+    height: 200px;
+  }
+
+  #div1 {
+    padding-top: 20px;
+  }
+
+  #div2 {
+    padding-top: 20px;
+  }
+
+  button {
+    color: white;
+    border: none;
+    background-color: rgb(2, 78, 81);
+    padding: 15px;
+    border-radius: 10px;
+  }

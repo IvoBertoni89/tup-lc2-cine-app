@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif , "Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
 }
 :root {
   /* Declaro variables CSS con colores principales */
@@ -21,6 +21,8 @@
 body {
   height: 100%;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(224 224 244);
 }
 ul {
   list-style: none;
@@ -64,6 +66,7 @@ nav li.current-page a {
   pointer-events: none;
 }
 main {
+  text-align: center;
   margin-top: 120px;
   overflow: auto;
   padding: 16px;
@@ -75,6 +78,7 @@ h1 {
   text-align: center;
   margin: 0;
   color: var(--color-theme);
+  text-shadow: -3px 2px 5px rgb(0 0 0);
 }
 h1 > img {
   width: 70px;
@@ -85,10 +89,15 @@ h2 {
   color: var(--color-titulos);
   margin: 16px 0;
   text-align: center;
+  text-shadow: -3px 3px 10px rgb(0 0 0);
 }
 h3 {
   color: var(--color-theme);
   margin: 8px 0;
+}
+form {
+  text-align: center;
+  margin-bottom: 30px;
 }
 main section {
   display: block;
@@ -115,6 +124,7 @@ main p {
   main {
     padding-left: 10%;
     padding-right: 10%;
+    text-align: center;
   }
   footer {
     padding-top: 20px;
@@ -170,4 +180,9 @@ main p {
 }
 .verde{
   background-color:#28a745 ;
+}
+
+a {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
