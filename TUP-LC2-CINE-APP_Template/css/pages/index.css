@@ -1,16 +1,19 @@
 #sec_peliculas {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
   }
+
+  
   
   .contenedorPeliculas {
-    text-align: justify;
+    text-align: left;
 
   }
   
@@ -24,6 +27,7 @@
   .contenedorPeliculas h3 {
     font-size: 16px;
     font-weight: 600;
+    text-align: center;
   }
   
   .contenedorPeliculas p {
@@ -88,7 +92,7 @@
   border-radius: 50px;
 }
 
-#Fav-Button {
+.Fav-Button {
   color: white;
   width: 100%;
   border: none;
@@ -96,5 +100,4 @@
   background-color:#7f8c8d;
   padding: 10px;
   border-radius: 50px;
-
 }
