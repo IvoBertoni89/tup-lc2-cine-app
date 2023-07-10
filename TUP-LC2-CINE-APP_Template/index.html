@@ -51,13 +51,14 @@
     <section id="sec_peliculas">
       <!--Seccion visualizacion de peliculas-->
       <div class="contenedorPeliculas">
-       <img src="https://image.tmdb.org/t/p/w500//fcFMd3HdyX7r5gtFwVnn2qr5Yhq.jpg" alt="Poster de la película">
-       <h3>Creed III</h3>
-       <p><b>Código:</b> 677179</p>
-       <p><b>Título Original:</b> Creed III</p>
-       <p><b>Idioma Original:</b> En</p>
-       <p><b>Año:</b> 2023 - 03 - 01</p>
-       <button id="Fav-Button">Agregar a Favoritos.</button>
+        <img src="https://image.tmdb.org/t/p/w500/${pelicula.poster_path}">
+        <h3>${pelicula.title}</h3>
+        <p><b>Código: ${pelicula.id}</b></p>
+        <p><b>Título Original: ${pelicula.original_title}</b></p>
+        <p><b>Idioma Original: ${pelicula.original_language}</b></p>
+        <p><b>Año: ${pelicula.release_date}</b></p>
+        <button class="trailer-button" data-movie-id="${pelicula.id}">Tráiler</button> <!-- Nuevo botón -->
+        <button id="Fav-Button-${pelicula.id}" class="Fav-Button">Agregar a Favoritos.</button>
       </div>
       <div class="contenedorPeliculas" id="contenedorPeliculas"></div>
     </section>

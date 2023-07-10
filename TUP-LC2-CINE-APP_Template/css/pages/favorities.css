@@ -1,35 +1,48 @@
-#sec-favorities-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-  }
+.contenedorPeliculasFavoritas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
 
-  .contenedorPeliculas {
-    text-align: justify;
 
-  }
-  
-  .contenedorPeliculas img {
-    height: auto;
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 15px;
-  }
-  
-  .contenedorPeliculas h3 {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-  }
-  
-  .contenedorPeliculas p {
-    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
-    font-size: 12px;
-    margin-top: 10px;
-    color: rgb(115, 145, 145)
-  }
+.contenedorPeliculas {
+  text-align: left;
+}
+
+.contenedorPeliculas img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.contenedorPeliculas h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contenedorPeliculas p {
+  font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+  color: rgb(115, 145, 145)
+}
+
+Button {
+  color: white;
+  width: 100%;
+  border: none;
+  box-shadow: 0px 4px 0px black;
+  background-color:#7f8c8d;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+#Warning_cartel{
+  background-color: #ffc107;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 10px auto;
+}
